@@ -169,7 +169,7 @@
 <br>
 <br>
 
-**2. Press `Edit` button of the added overlay;**
+**2. Press `Edit` button of the added overlay**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-02.png" />
@@ -177,7 +177,7 @@
 <br>
 <br>
 
-**3. Select the widget;**
+**3. Select the widget**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-03.png" />
@@ -185,7 +185,7 @@
 <br>
 <br>
 
-**4. Press `Settings`;**
+**4. Press `Settings`**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-04.png" />
@@ -193,7 +193,7 @@
 <br>
 <br>
 
-**5. Press `Open Editor`;**
+**5. Press `Open Editor`**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-05.png" />
@@ -201,7 +201,7 @@
 <br>
 <br>
 
-**6. From this repo copy the content of `/source/StreamerChatBubble_HTML.html`;**
+**6. From this repo copy the content of `/source/StreamerChatBubble_HTML.html`**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-06.png" />
@@ -209,7 +209,7 @@
 <br>
 <br>
 
-**7. Remove all content in `HTML` tab in Overlay Editor and paste what you copied before;**
+**7. Remove all content in `HTML` tab in Overlay Editor and paste what you copied before**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-07.png" />
@@ -217,7 +217,7 @@
 <br>
 <br>
 
-**8. From this repo copy the content of `/source/StreamerChatBubble_Style.css`;**
+**8. From this repo copy the content of `/source/StreamerChatBubble_Style.css`**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-08.png" />
@@ -225,7 +225,7 @@
 <br>
 <br>
 
-**9. Remove all content in `CSS` tab in Overlay Editor and paste what you copied before;**
+**9. Remove all content in `CSS` tab in Overlay Editor and paste what you copied before**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-09.png" />
@@ -233,7 +233,7 @@
 <br>
 <br>
 
-**10. From this repo copy the content of `/source/StreamerChatBubble_Script.js`;**
+**10. From this repo copy the content of `/source/StreamerChatBubble_Script.js`**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-10.png" />
@@ -241,7 +241,7 @@
 <br>
 <br>
 
-**11. Remove all content in `JS` tab in Overlay Editor and paste what you copied before;**
+**11. Remove all content in `JS` tab in Overlay Editor and paste what you copied before**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-11.png" />
@@ -249,7 +249,7 @@
 <br>
 <br>
 
-**12. From this repo copy the content of `/source/StreamerChatBubble_Fields.js`;**
+**12. From this repo copy the content of `/source/StreamerChatBubble_Fields.js`**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-12.png" />
@@ -257,7 +257,7 @@
 <br>
 <br>
 
-**13. Remove all content in `Fields` tab in Overlay Editor and paste what you copied before;**
+**13. Remove all content in `Fields` tab in Overlay Editor and paste what you copied before**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-13.png" />
@@ -265,7 +265,7 @@
 <br>
 <br>
 
-**14. Press `Done` button;**
+**14. Press `Done` button**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-14.png" />
@@ -273,7 +273,7 @@
 <br>
 <br>
 
-**15. Press `Save` button;**
+**15. Press `Save` button**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-15.png" />
@@ -281,7 +281,7 @@
 <br>
 <br>
 
-**16. [Optional] Set your twitch username in `Settings` -> `User Filters` -> `Show message only from these users`;**
+**16. [Optional] Set your twitch username in `Settings` -> `User Filters` -> `Show message only from these users`**
 
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-16.png" />
