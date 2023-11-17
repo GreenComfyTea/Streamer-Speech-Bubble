@@ -1,3 +1,4 @@
+
 ## Streamer Speech Bubble
 
 **This a modified version of [@Zaytri's](https://zaytri.com/) [Chat Bubbles](https://github.com/Zaytri/stream-elements-widgets) widget.** 
@@ -51,107 +52,158 @@ It displays **speech bubble(s)** like the original but with modified settings an
 
 ## Installation
 
-1. **Add the original `Chat Bubbles` widget overlay using the button below:**
+**1. Add the original `Chat Bubbles` widget overlay using the button below:**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-01.png" />
 </a>
- 
-2. **Press `Edit` button of the added overlay;**
+<br>
+<br>
 
+**2. Press `Edit` button of the added overlay;**
+
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-02.png" />
 </a>
+<br>
+<br>
 
-3. **Select the widget;**
+**3. Select the widget;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-03.png" />
 </a>
+<br>
+<br>
 
-4. **Press `Settings`;**
+**4. Press `Settings`;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-04.png" />
 </a>
+<br>
+<br>
 
-5. **Press `Open Editor`;**
+**5. Press `Open Editor`;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-05.png" />
 </a>
+<br>
+<br>
 
-6. **From this repo copy the content of `/source/StreamerChatBubble_HTML.html`;**
+**6. From this repo copy the content of `/source/StreamerChatBubble_HTML.html`;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-06.png" />
 </a>
+<br>
+<br>
 
-7. **Remove all content in `HTML` tab in Overlay Editor and paste what you copied before;**
+**7. Remove all content in `HTML` tab in Overlay Editor and paste what you copied before;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-07.png" />
 </a>
+<br>
+<br>
 
-8. **From this repo copy the content of `/source/StreamerChatBubble_Style.css`;**
+**8. From this repo copy the content of `/source/StreamerChatBubble_Style.css`;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-08.png" />
 </a>
+<br>
+<br>
 
-9. **Remove all content in `CSS` tab in Overlay Editor and paste what you copied before;**
+**9. Remove all content in `CSS` tab in Overlay Editor and paste what you copied before;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-09.png" />
 </a>
+<br>
+<br>
 
-10. **From this repo copy the content of `/source/StreamerChatBubble_Script.js`;**
+**10. From this repo copy the content of `/source/StreamerChatBubble_Script.js`;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-10.png" />
 </a>
+<br>
+<br>
 
-111. **Remove all content in `JS` tab in Overlay Editor and paste what you copied before;**
+**11. Remove all content in `JS` tab in Overlay Editor and paste what you copied before;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-11.png" />
 </a>
+<br>
+<br>
 
-12. **From this repo copy the content of `/source/StreamerChatBubble_Fields.js`;**
+**12. From this repo copy the content of `/source/StreamerChatBubble_Fields.js`;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-12.png" />
 </a>
+<br>
+<br>
 
-13. **Remove all content in `Fields` tab in Overlay Editor and paste what you copied before;**
+**13. Remove all content in `Fields` tab in Overlay Editor and paste what you copied before;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-13.png" />
 </a>
+<br>
+<br>
 
-14. **Press `Done` button;**
+**14. Press `Done` button;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-14.png" />
 </a>
+<br>
+<br>
 
-15. **Press `Save` button;**
+**15. Press `Save` button;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-15.png" />
 </a>
+<br>
+<br>
 
-16. **[Optional] Set your twitch username in `Settings` -> `User Filters` -> `Show message only from these users`;**
+**16. [Optional] Set your twitch username in `Settings` -> `User Filters` -> `Show message only from these users`;**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-16.png" />
 </a>
+<br>
+<br>
 
-17. **Now the `Streamer Speech Bubble` widget is ready! You can now customize it and tweak the settings to your liking and duplicate the widget into your existing overlays (or use this one)!**
+**17. Now the `Streamer Speech Bubble` widget is ready! You can now customize it and tweak the settings to your liking and duplicate the widget into your existing overlays (or use this one)!**
 
+<br>
 <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
   <img src="/assets/installation-17.png" />
 </a>
+<br>
+<br>
 
 ## Credits
 **[Zaytri](https://github.com/Zaytri)** - Original developer of  **[Chat Bubbles](https://github.com/Zaytri/stream-elements-widgets)** widget.
@@ -159,7 +211,7 @@ It displays **speech bubble(s)** like the original but with modified settings an
 
 ## Support
 
-You can support me by donating! I would appreciate it! But anyway, thank you for using this mod!
+You can support me by donating! I would appreciate it! But anyway, thank you!
 
 <a href="https://streamelements.com/greencomfytea/tip">
   <img alt="Qries" src="https://panels.twitch.tv/panel-48897356-image-c6155d48-b689-4240-875c-f3141355cb56">
