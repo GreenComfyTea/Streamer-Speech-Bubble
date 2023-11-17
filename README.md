@@ -11,7 +11,7 @@
 		It displays <b>speech bubble(s)</b> like the original but with modified settings and styling options that are <b>aimed at displaying just the chat messages from the streamer</b>.
 	</p>
 	<p align="center">
-		<b>Made for all silent streamers who are afraid to speak!</b>.
+		<b>Made for all silent streamers who are afraid to speak!</b>
 	</p>
 </p>
 
