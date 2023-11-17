@@ -1,0 +1,530 @@
+/* --- [Globals] --- */
+
+* {
+  font-family: '{customFont}', '{googleFont}', Nunito, Arial, sans-serif;
+  font-size: {fontSize}px;
+  font-weight: {fontWeight};
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- [Widget Container] --- */
+
+main {
+  --topLeftUserboxCornerRadius: {topLeftUserboxCorner}px;
+  --topRightUserboxCornerRadius: {topRightUserboxCorner}px;
+  --bottomLeftUserboxCornerRadius: {bottomLeftUserboxCorner}px;
+  --bottomRightUserboxCornerRadius: {bottomRightUserboxCorner}px;
+  
+  --leftUserboxPadding: {leftUserboxPadding}rem;
+  --topUserboxPadding: {topUserboxPadding}rem;
+  --rightUserboxPadding: {rightUserboxPadding}rem;
+  --bottomUserboxPadding: {bottomUserboxPadding}rem;
+  
+  --customUserboxBackgroundRotation: {userboxBackgroundRotation}deg;
+  --customUserboxBackgroundColor1: {userboxBackgroundColor1};
+  --customUserboxBackgroundColor2: {userboxBackgroundColor2};
+  --customUserboxBackgroundColor3: {userboxBackgroundColor3};
+  
+  --customUsernameColor: {usernameColor};
+  
+  --usernameTextShadowColor: {usernameShadowColor};
+  --usernameTextShadowOffsetX: {usernameTextShadowOffsetX}px;
+  --usernameTextShadowOffsetY: {usernameTextShadowOffsetY}px;
+  --usernameTextShadowBlurRadius: {usernameTextShadowBlurRadius}px;
+  
+  --topLeftMessageCornerRadius: {topLeftMessageCorner}px;
+  --topRightMessageCornerRadius: {topRightMessageCorner}px;
+  --bottomLeftMessageCornerRadius: {bottomLeftMessageCorner}px;
+  --bottomRightMessageCornerRadius: {bottomRightMessageCorner}px;
+  
+  --leftMessagePadding: {leftMessagePadding}rem;
+  --topMessagePadding: {topMessagePadding}rem;
+  --rightMessagePadding: {rightMessagePadding}rem;
+  --bottomMessagePadding: {bottomMessagePadding}rem;
+  
+  --customMessageBackgroundRotation: {messageBackgroundRotation}deg;
+  --customMessageBackgroundColor1: {messageBackgroundColor1};
+  --customMessageBackgroundColor2: {messageBackgroundColor2};
+  --customMessageBackgroundColor3: {messageBackgroundColor3};
+  
+  --customMessageTextColor: {messageTextColor};
+  
+  --messageTextShadowColor: {messageTextShadowColor};
+  --messageTextShadowOffsetX: {messageTextShadowOffsetX}px;
+  --messageTextShadowOffsetY: {messageTextShadowOffsetY}px;
+  --messageTextShadowBlurRadius: {messageTextShadowBlurRadius}px;
+  
+  color: #564A39;
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+}
+
+main.preview-true.editor::before {
+  --borderSize: 10px;
+  content: '';
+  position: absolute;
+  height: calc(100% - {padding}px * 2);
+  width: calc(100% - {padding}px * 2);
+  bottom: calc({padding}px - var(--borderSize));
+  left: calc({padding}px - var(--borderSize));
+  border: var(--borderSize) dashed white;
+  box-shadow: 0 0 5px #000;
+  background-color: #0008;
+  z-index: -20;
+}
+
+main.preview-true.editor::after {
+  --borderSize: 10px;
+  --space: 10px;
+  content: '⚠️ Preview Mode is On! ⚠️ (Only shows up in the editor)\a ➡️ Set [Preview > Preview Mode] to Off to hide this. ⬅️\a\a Whenever you change the settings, a few test message bubbles will automatically appear!';
+  white-space: pre-wrap;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: {padding}px;
+  left: {padding}px;
+  right: {padding}px;
+  text-align: left;
+  padding: 30px;
+  text-shadow: 0 0 5px black, 0 0 3px black, 0 0 1px black;
+  font-weight: bold;
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #000B;
+  z-index: -10;
+}
+
+main.preview-true.editor::before, main.preview-true.editor::after {
+  animation: fade .4s reverse forwards;
+}
+
+main.custom-message-text-color {
+  color: var(--customMessageTextColor)
+}
+
+main.list-mode {
+  display: flex;
+  align-items: {listAlignment};
+  align-content: start;
+  overflow: hidden;
+  padding: {padding}px;
+}
+
+main.direction-bottom {
+  flex-direction: column-reverse;
+  bottom: 0;
+}
+
+main.direction-top {
+  flex-direction: column;
+}
+
+main.direction-left {
+  flex-direction: row;
+}
+
+main.direction-right {
+  flex-direction: row-reverse;
+}
+
+main.direction-top main.random-mode {
+  top: 0;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* --- [Bubble Container] --- */
+
+.bubble {
+  --defaultBackgroundColor: #FFFC;
+  --backgroundColor: var(--defaultBackgroundColor);
+  --cornerSize: 23px;
+  --userColor: #FF4A80;
+  --borderColor: var(--userColor);
+  --borderSize: 5px;
+  --marginSize: 15px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.list-mode.direction-top .bubble {
+  margin-bottom: var(--marginSize);
+}
+
+.list-mode.direction-bottom .bubble {
+  margin-top: var(--marginSize);
+}
+
+.list-mode.direction-left .bubble {
+  margin-right: var(--marginSize);
+}
+
+.list-mode.direction-right .bubble {
+  margin-left: var(--marginSize);
+}
+
+.custom-message-background-color .bubble {
+}
+
+.bubble.animate {
+  visibility: visible;
+}
+
+.bubble.dynamic {
+  animation: pop .5s calc({lifetime}s - .5s) forwards;
+}
+
+.lifetime-0 .bubble.dynamic {
+  animation: fade reverse 0s 1s;
+}
+
+.bubble.fade {
+  animation:
+    fade reverse .5s,
+    fade .5s calc({lifetime}s - .5s) forwards
+  ;
+}
+
+.lifetime-0 .bubble.fade {
+  animation:
+    fade reverse .5s,
+    fade reverse 0s 1s
+  ;
+}
+
+.bubble.fade-up {
+  animation:
+    fade reverse .5s,
+    fade .5s calc({lifetime}s - .5s) forwards,
+  	up .5s,
+  	up reverse .5s calc({lifetime}s - .5s) forwards
+  ;
+}
+
+.lifetime-0 .bubble.fade-up {
+  animation:
+    fade reverse .5s,
+    up .5s,
+    fade reverse 0s 1s
+  ;
+}
+
+.bubble.fade-down {
+  animation:
+    fade reverse .5s,
+    fade .5s calc({lifetime}s - .5s) forwards,
+  	down .5s,
+  	down reverse .5s calc({lifetime}s - .5s) forwards
+  ;
+}
+
+.lifetime-0 .bubble.fade-down {
+  animation:
+    fade reverse .5s,
+    down .5s,
+    fade reverse 0s 1s
+  ;
+}
+
+.bubble.fade-left {
+  animation:
+    fade reverse .5s,
+    fade .5s calc({lifetime}s - .5s) forwards,
+  	left .5s,
+  	left reverse .5s calc({lifetime}s - .5s) forwards
+  ;
+}
+
+.lifetime-0 .bubble.fade-left {
+  animation:
+    fade reverse .5s,
+    left .5s,
+    fade reverse 0s 1s
+  ;
+}
+
+.bubble.fade-right {
+  animation:
+    fade reverse .5s,
+    fade .5s calc({lifetime}s - .5s) forwards,
+  	right .5s,
+  	right reverse .5s calc({lifetime}s - .5s) forwards
+  ;
+}
+
+.lifetime-0 .bubble.fade-right {
+  animation:
+    fade reverse .5s,
+    right .5s,
+    fade reverse 0s 1s
+  ;
+}
+
+.bubble.zoom {
+  animation:
+    pop reverse .5s,
+    pop .5s calc({lifetime}s - .5s) forwards
+  ;
+}
+
+.lifetime-0 .bubble.zoom {
+  animation:
+    pop reverse .5s,
+    fade reverse 0s 1s
+  ;
+}
+
+.bubble-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--customMessageBackgroundColor1);
+}
+
+/* --- [Container Blocks] --- */
+
+.username-box {
+  z-index: 1;
+  border-top-left-radius: var(--topLeftUserboxCornerRadius);
+  border-top-right-radius: var(--topRightUserboxCornerRadius);
+  border-bottom-left-radius: var(--bottomLeftUserboxCornerRadius);
+  border-bottom-right-radius: var(--bottomRightUserboxCornerRadius);
+  display: inline-block;
+  padding-left: var(--leftUserboxPadding);
+  padding-top: var(--topUserboxPadding);
+  padding-right: var(--rightUserboxPadding);
+  padding-bottom: var(--bottomUserboxPadding);
+  background-color: #FF4A80;
+  /*padding: .2rem .5rem;*/
+}
+
+.disable-userbox .username-box {
+  visibility: hidden;
+}
+
+.custom-userbox-background-color .username-box {
+    background: linear-gradient(
+    var(--customUserboxBackgroundRotation),
+    var(--customUserboxBackgroundColor1),
+    var(--customUserboxBackgroundColor2),
+    var(--customUserboxBackgroundColor3)
+  );
+}
+
+.username {
+  padding-left: .3rem;
+  padding-right: .3rem;
+  display: inline-block;
+  color: black;
+}
+
+.user-color-dark .username {
+  color: #FFFC;
+}
+
+.custom-username-color .username {
+  color: var(--customUsernameColor);
+}
+
+.enable-username-text-shadow .username {
+  text-shadow:
+    var(--usernameTextShadowOffsetX)
+    var(--usernameTextShadowOffsetY)
+    var(--usernameTextShadowBlurRadius)
+    var(--usernameTextShadowColor);
+}
+
+.message {
+  --backgroundColor: #FFFAE4DD;
+  --dynamicWidth: {maxWidth}px;
+  width: var(--dynamicWidth);
+  max-height: {maxHeight}px;
+  overflow: hidden;
+  direction: {textDirection};
+  background-color: var(--backgroundColor);
+  border-top-left-radius: var(--topLeftMessageCornerRadius);
+  border-top-right-radius: var(--topRightMessageCornerRadius);
+  border-bottom-left-radius: var(--bottomLeftMessageCornerRadius);
+  border-bottom-right-radius: var(--bottomRightMessageCornerRadius);
+  padding-left: var(--leftMessagePadding);
+  padding-top: var(--topMessagePadding);
+  padding-right: var(--rightMessagePadding);
+  padding-bottom: var(--bottomMessagePadding);
+  /*padding: .75rem .75rem .75rem .75rem;*/
+  margin-top: -1rem;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.fixed-width-false .emote-4 .message {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.custom-message-background-color .message {
+  background: linear-gradient(
+    var(--customMessageBackgroundRotation),
+    var(--customMessageBackgroundColor1),
+    var(--customMessageBackgroundColor2),
+    var(--customMessageBackgroundColor3)
+  );
+}
+
+.dynamic .message { animation: expand 2s; }
+
+/* --- [Message Parts] --- */
+
+.emote {
+  position: relative;
+  vertical-align: middle;
+  margin: -.25rem 0;
+}
+
+.dynamic .text, .dynamic .emote { animation: fadeMessage 1.5s; }
+
+.emote-1 .emote { height: 1.75rem; max-height: 112px; }
+.emote-2 .emote { height: 3.5rem; max-height: 112px; }
+.emote-4 .emote { height: 112px; }
+
+/* --- [Message Types] --- */
+
+.highlight .bubble-background, .highlight .message {
+  background: linear-gradient(-45deg, #FFADADDD, #FFD6A5DD, #FDFFB6DD, #CAFFBFDD, #9BF6FFDD, #A0C4FFDD, #BDB2FFDD, #FFC6FFDD, #FFADADDD, #FFD6A5DD) 100% 100% / 900% 900%;
+}
+
+.highlight .bubble-background {
+  animation: gradientShift 5s infinite linear;
+}
+
+.dynamic.highlight .message {
+  animation: gradientShift 5s infinite linear, expand 2s;
+}
+
+.enable-message-text-shadow .text {
+  text-shadow:
+    var(--messageTextShadowOffsetX)
+    var(--messageTextShadowOffsetY)
+    var(--messageTextShadowBlurRadius)
+    var(--messageTextShadowColor);
+}
+
+.highlight .text {
+  color: #000B;
+}
+
+.action .text {
+  font-style: italic;
+}
+
+.action .emote {
+  transform: skew(-5deg);
+}
+
+.badge {
+  height: 1.5rem;
+  padding-bottom: .15rem;
+  padding-right: .25rem;
+  position: relative;
+  vertical-align: middle;
+}
+
+.pronouns-badge {
+  display: inline-block;
+  margin-right: .25rem;
+  border-radius: 5px;
+  border: 2px solid currentcolor;
+  padding-left: .25rem;
+  padding-right: .25rem;
+  margin-bottom: .25rem;
+}
+
+.custom-pronouns-badge-colors .pronouns-badge {
+  color: {pronounsBadgeTextColor};
+  background-color: {pronounsBadgeBackgroundColor};
+  border-color: {pronounsBadgeBorderColor};
+}
+
+.title-bar {
+  background-color: var(--customUserboxBackgroundColor1) !important;
+  display: block !important;
+}
+
+.title-bar-controls {
+  display: inline-block;
+  padding-left: .25rem;
+}
+
+.title-bar-controls button {
+  display: inline-block;
+}
+
+/* --- [Animations] --- */
+
+@keyframes gradientShift-cornerDiagonal {
+  from { background-position: 0 0, 0 0, 0 0, 0 0, top left, top right, bottom left, bottom right, 100% 100%; }
+  to { background-position: 0 0, 0 0, 0 0, 0 0, top left, top right, bottom left, bottom right, 0 0; }
+}
+
+@keyframes gradientShift {
+  from { background-position: 100% 100%; }
+  to { background-position: 0 0; }
+}
+
+@keyframes pop {
+  20% { transform: scale(1.3); }
+  to { opacity: 0; transform: scale(0); }
+}
+
+@keyframes fadeMessage {
+  0%, 30% { opacity: 0; }
+}
+
+@keyframes fade {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes up {
+  from { transform: translateY(50px); }
+  to { transform: translateY(0px); }
+}
+
+@keyframes down {
+  from { transform: translateY(-50px); }
+  to { transform: translateY(0px); }
+}
+
+@keyframes left {
+  from { transform: translateX(50px); }
+  to { transform: translateX(0px); }
+}
+
+@keyframes right {
+  from { transform: translateX(-50px); }
+  to { transform: translateX(0px); }
+}
+
+@keyframes expand {
+  0% {
+    width: 0;
+    max-height: 0;
+  }
+
+  10% { width: calc(var(--dynamicWidth) * {dynamicModifier}); }
+
+  30% {
+    width: var(--dynamicWidth);
+    max-height: 0;
+  }
+  70% { max-height: {maxHeight}px; }
+}

@@ -1,0 +1,1287 @@
+{
+  "testMessageButton": {
+    "label": "Send Test Message",
+    "group": "Preview",
+    "type": "button",
+    "value": "zaytri_dynamicchatbubbles"
+  },
+  "previewModeLabel": {
+    "label": "Preview Mode",
+    "group": "Preview",
+    "type": "hidden"
+  },
+  "previewMode": {
+    "label": "(Shows bubbles when settings change)",
+    "group": "Preview",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "On",
+      "false": "Off"
+    }
+  },
+  "previewType": {
+    "label": "Message Type",
+    "group": "Preview",
+    "type": "dropdown",
+    "value": "random",
+    "options": {
+      "random": "Any",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "previewMessage": {
+    "label": "Custom Message (No Emotes)",
+    "group": "Preview",
+    "type": "text",
+    "value": ""
+  },
+  "topLeftMessageCorner": {
+    "label": "Top Left Corner Radius (px)",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "topRightMessageCorner": {
+    "label": "Top Right Corner Radius (px)",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "bottomLeftMessageCorner": {
+    "label": "Bottom Left Corner Radius (px)",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "bottomRightMessageCorner": {
+    "label": "Bottom Right Corner Radius (px)",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "leftMessagePadding": {
+    "label": "Left Message Padding",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 1,
+    "step": 0.01,
+    "min": 0
+  },
+  "topMessagePadding": {
+    "label": "Top Message Padding",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 1.75,
+    "step": 0.01,
+    "min": 0
+  },
+  "rightMessagePadding": {
+    "label": "Right Message Padding",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 1,
+    "step": 0.01,
+    "min": 0
+  },
+  "bottomMessagePadding": {
+    "label": "Bottom Message Padding",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 1,
+    "step": 0.01,
+    "min": 0
+  },
+  "useCustomMessageBackgroundColor": {
+    "label": "Use Custom Background Color",
+    "group": "Message Box Style",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "messageBackgroundRotation": {
+    "label": "Custom Background Rotation (deg)",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 135,
+    "step": 1,
+    "min": 0,
+    "max": 360
+  },
+  "messageBackgroundColor1": {
+    "label": "Custom Background Color 1",
+    "group": "Message Box Style",
+    "type": "colorpicker",
+    "value": "#ffffff"
+  },
+  "messageBackgroundColor2": {
+    "label": "Custom Background Color 2",
+    "group": "Message Box Style",
+    "type": "colorpicker",
+    "value": "#ffffff"
+  },
+  "messageBackgroundColor3": {
+    "label": "Custom Background Color 3",
+    "group": "Message Box Style",
+    "type": "colorpicker",
+    "value": "#ffffff"
+  },
+  "useCustomMessageTextColor": {
+    "label": "Use Custom Message Color",
+    "group": "Message Box Style",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "messageTextColor": {
+    "label": "Custom Message Color",
+    "group": "Message Box Style",
+    "type": "colorpicker",
+    "value": "#000000"
+  },
+  "enableMessageTextShadow": {
+    "label": "Enable Message Shadow",
+    "group": "Message Box Style",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "messageTextShadowColor": {
+    "label": "Message Shadow Color",
+    "group": "Message Box Style",
+    "type": "colorpicker",
+    "value": "#000"
+  },
+  "messageTextShadowOffsetX": {
+    "label": "Message Shadow Offset X",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 2,
+    "step": 1,
+    "min": 0
+  },
+  "messageTextShadowOffsetY": {
+    "label": "Message Shadow Offset Y",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 2,
+    "step": 1,
+    "min": 0
+  },
+  "messageTextShadowBlurRadius": {
+    "label": "Message Shadow Blur Radius",
+    "group": "Message Box Style",
+    "type": "number",
+    "value": 2,
+    "step": 1,
+    "min": 0
+  },
+  "highlightStyle": {
+    "label": "Highlighted Style",
+    "group": "Message Box Style",
+    "type": "dropdown",
+    "value": "rainbow",
+    "options": {
+      "rainbow": "Rainbow",
+      "normal": "Normal"
+    }
+  },
+  "actionStyle": {
+    "label": "/me Style",
+    "group": "Message Box Style",
+    "type": "dropdown",
+    "value": "italics",
+    "options": {
+      "italics": "Italics",
+      "normal": "Normal"
+    }
+  },
+  "disableUserbox": {
+    "label": "Disable Userbox",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "topLeftUserboxCorner": {
+    "label": "Top Left Userbox Corner Radius (px)",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "topRightUserboxCorner": {
+    "label": "Top Right Userbox Corner Radius (px)",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "bottomLeftUserboxCorner": {
+    "label": "Bottom Left Userbox Corner Radius (px)",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "bottomRightUserboxCorner": {
+    "label": "Bottom Right Userbox Radius (px)",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 32,
+    "step": 1,
+    "min": 0
+  },
+  "leftUserboxPadding": {
+    "label": "Left Userbox Padding",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 0.2,
+    "step": 0.01,
+    "min": 0
+  },
+  "topUserboxPadding": {
+    "label": "Top Userbox Padding",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 0.2,
+    "step": 0.01,
+    "min": 0
+  },
+  "rightUserboxPadding": {
+    "label": "Right Userbox Padding",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 0.5,
+    "step": 0.01,
+    "min": 0
+  },
+  "bottomUserboxPadding": {
+    "label": "Bottom Userbox Padding",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 0.1,
+    "step": 0.01,
+    "min": 0
+  },
+  "useCustomUserboxBackgroundColor": {
+    "label": "Use Custom Userbox Background Color",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "userboxBackgroundRotation": {
+    "label": "Custom Userbox Background Rotation (deg)",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 135,
+    "step": 1,
+    "min": 0,
+    "max": 360
+  },
+  "userboxBackgroundColor1": {
+    "label": "Custom Userbox Background Color 1",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#000000"
+  },
+  "userboxBackgroundColor2": {
+    "label": "Custom Userbox Background Color 2",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#000000"
+  },
+  "userboxBackgroundColor3": {
+    "label": "Custom Userbox Background Color 3",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#000000"
+  },
+  "useCustomUsernameColor": {
+    "label": "Use Custom Username Color",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "usernameColor": {
+    "label": "Custom Username Color",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#ffffff"
+  },
+  "enableUsernameTextShadow": {
+    "label": "Enable Username Shadow",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "usernameShadowColor": {
+    "label": "Username Shadow Color",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#000"
+  },
+  "usernameTextShadowOffsetX": {
+    "label": "Username Shadow Offset X",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 2,
+    "step": 1,
+    "min": 0
+  },
+  "usernameTextShadowOffsetY": {
+    "label": "Username Shadow Offset Y",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 2,
+    "step": 1,
+    "min": 0
+  },
+  "usernameTextShadowBlurRadius": {
+    "label": "Username Shadow Blur Radius",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 2,
+    "step": 1,
+    "min": 0
+  },
+  "showBadges": {
+    "label": "Show Twitch Badges",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "showUsername": {
+    "label": "Show Username",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "showTimestamp": {
+    "label": "Show Timestamp",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "timestampLocale": {
+    "label": "Timestamp Locale",
+    "group": "Userbox Style",
+    "type": "text",
+    "value": "en-GB"
+  },
+  "timestampTimezone": {
+    "label": "Timestamp Timezone",
+    "group": "Userbox Style",
+    "type": "text",
+    "value": "Etc/UTC"
+  },
+  "timestampSlice": {
+    "label": "Timestamp Shown Symbols from End",
+    "group": "Userbox Style",
+    "type": "number",
+    "value": 8,
+    "step": 1,
+    "min": 0
+  },
+  "pronounsInfo": {
+    "label": "Integrated from pronouns.alejo.io",
+    "group": "Userbox Style",
+    "type": "hidden"
+  },
+  "pronounsMode": {
+    "label": "Pronouns Display",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "suffix",
+    "options": {
+      "off": "Off",
+      "badge": "Badge",
+      "suffix": "Suffix"
+    }
+  },
+  "pronounsLowercase": {
+    "label": "Lowercase Pronouns?",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "pronounsBadgeCustomColors": {
+    "label": "Use Custom Pronouns Badge Colors?",
+    "group": "Userbox Style",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "pronounsBadgeBackgroundColor": {
+    "label": "Pronouns Badge Background Color",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#000000"
+  },
+  "pronounsBadgeBorderColor": {
+    "label": "Pronouns Badge Border Color",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#FFFFFF"
+  },
+  "pronounsBadgeTextColor": {
+    "label": "Pronouns Badge Text Color",
+    "group": "Userbox Style",
+    "type": "colorpicker",
+    "value": "#FFFFFF"
+  },
+  "maxWidth": {
+    "label": "Message Max Width (px)",
+    "group": "Bubble Size",
+    "type": "number",
+    "value": 400,
+    "step": 1,
+    "min": 0
+  },
+  "maxHeight": {
+    "label": "Message Max Height (px)",
+    "group": "Bubble Size",
+    "type": "number",
+    "value": 300,
+    "step": 1,
+    "min": 0
+  },
+  "fixedWidth": {
+    "label": "Set width to always be max width?",
+    "group": "Bubble Size",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "positionMode": {
+    "label": "Position (Random/Random Edge/List)",
+    "group": "Bubble Position",
+    "type": "dropdown",
+    "value": "list",
+    "options": {
+      "random": "Random",
+      "random-edge": "Random Edge",
+      "list": "List"
+    }
+  },
+  "listDirection": {
+    "label": "Direction (For List)",
+    "group": "Bubble Position",
+    "type": "dropdown",
+    "value": "bottom",
+    "options": {
+      "bottom": "Vertical (From Bottom)",
+      "top": "Vertical (From Top)",
+      "left": "Horizontal (From Left)",
+      "right": "Horizontal (From Right)"
+    }
+  },
+  "listAlignment": {
+    "label": "Alignment (For List)",
+    "group": "Bubble Position",
+    "type": "dropdown",
+    "value": "flex-end",
+    "options": {
+      "flex-start": "Left (Vertical) / Top (Horizontal)",
+      "center": "Center",
+      "flex-end": "Right (Vertical) / Bottom (Horizontal)"
+    }
+  },
+  "topEdge": {
+    "label": "Use Top Edge? (For Random Edge)",
+    "group": "Bubble Position",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "bottomEdge": {
+    "label": "Use Bottom Edge? (For Random Edge)",
+    "group": "Bubble Position",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "leftEdge": {
+    "label": "Use Left Edge? (For Random Edge)",
+    "group": "Bubble Position",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "rightEdge": {
+    "label": "Use Right Edge? (For Random Edge)",
+    "group": "Bubble Position",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "edgeDeviation": {
+    "label": "Edge Deviation (px) (For Random Edge)",
+    "group": "Bubble Position",
+    "type": "number",
+    "value": 0,
+    "min": 0,
+    "step": 1
+  },
+  "padding": {
+    "label": "Space from Widget Edges (px)",
+    "group": "Bubble Position",
+    "type": "number",
+    "value": 30,
+    "min": 0,
+    "step": 1
+  },
+  "animation": {
+    "label": "Animation Type",
+    "group": "Animation and Lifetime",
+    "type": "dropdown",
+    "value": "dynamic",
+    "options": {
+      "dynamic": "Dynamic",
+      "zoom": "Bounce Zoom",
+      "fade": "Fade",
+      "fade-up": "Fade Up",
+      "fade-down": "Fade Down",
+      "fade-left": "Fade Left",
+      "fade-right": "Fade Right",
+      "none": "None"
+    }
+  },
+  "dynamicModifier": {
+    "label": "Dynamic Animation Width Multiplier",
+    "group": "Animation and Lifetime",
+    "type": "number",
+    "value": 1.75,
+    "min": 0
+  },
+  "maxMessagesLabel": {
+    "label": "Max number of displayed bubbles",
+    "group": "Animation and Lifetime",
+    "type": "hidden"
+  },
+  "maxMessages": {
+    "label": "(0 for unlimited)",
+    "group": "Animation and Lifetime",
+    "type": "number",
+    "value": 1,
+    "step": 1,
+    "min": 0
+  },
+  "hideOutOfBounds": {
+    "label": "Hide out of bounds bubbles? (For List)",
+    "group": "Animation and Lifetime",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "lifetimeLabel": {
+    "label": "Hide bubbles after this many seconds",
+    "group": "Animation and Lifetime",
+    "type": "hidden"
+  },
+  "lifetime": {
+    "label": "(Set to 0 to never hide)",
+    "group": "Animation and Lifetime",
+    "type": "number",
+    "value": 60,
+    "step": 1,
+    "min": 0
+  },
+  "delay": {
+    "label": "Delay before visible (seconds)",
+    "group": "Animation and Lifetime",
+    "type": "number",
+    "value": 1,
+    "step": 1,
+    "min": 1
+  },
+  "googleFont": {
+    "label": "Google Font",
+    "group": "Text Styles",
+    "type": "googleFont",
+    "value": "Nunito"
+  },
+  "customFont": {
+    "label": "Custom Font Name",
+    "group": "Text Styles",
+    "type": "text",
+    "value": ""
+  },
+  "fontSize": {
+    "label": "Font Size (px)",
+    "group": "Text Styles",
+    "type": "number",
+    "value": 18,
+    "step": 1,
+    "min": 0
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "group": "Text Styles",
+    "type": "dropdown",
+    "value": "bold",
+    "options": {
+      "normal": "Normal",
+      "bold": "Bold",
+      "100": "100",
+      "200": "200",
+      "300": "300",
+      "400": "400",
+      "500": "500",
+      "600": "600",
+      "700": "700",
+      "800": "800",
+      "900": "900"
+    }
+  },
+  "textDirection": {
+    "label": "Message Text Direction",
+    "group": "Text Styles",
+    "type": "dropdown",
+    "value": "ltr",
+    "options": {
+      "ltr": "Left to Right",
+      "rtl": "Right to Left"
+    }
+  },
+  "largeEmotes": {
+    "label": "Larger emotes for emote messages?",
+    "group": "Emotes",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "ffzGlobal": {
+    "label": "Show global FrankerFaceZ emotes?",
+    "group": "Emotes",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "bttvGlobal": {
+    "label": "Show global BetterTTV emotes?",
+    "group": "Emotes",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "_7tvGlobal": {
+    "label": "Show global 7TV emotes?",
+    "group": "Emotes",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "emoteOnly": {
+    "label": "Hide messages with text?",
+    "group": "Message Filters",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "highlightOnly": {
+    "label": "Show only highlighted messages?",
+    "group": "Message Filters",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "allowedStringsLabel": {
+    "label": "Allow only these phrases:",
+    "group": "Message Filters",
+    "type": "hidden"
+  },
+  "allowedStrings": {
+    "label": "(Comma Separated)",
+    "group": "Message Filters",
+    "type": "text",
+    "value": ""
+  },
+  "messageCooldownLabel": {
+    "label": "Limit chat bubbles to once per",
+    "group": "Message Filters",
+    "type": "hidden"
+  },
+  "messageCooldown": {
+    "label": "this many seconds",
+    "group": "Message Filters",
+    "type": "number",
+    "value": 0,
+    "step": 1,
+    "min": 0
+  },
+  "allowUserListLabel": {
+    "label": "Show messages only from these users:",
+    "group": "User Filters",
+    "type": "hidden"
+  },
+  "allowUserList": {
+    "label": "(Comma Separated)",
+    "group": "User Filters",
+    "type": "text",
+    "value": ""
+  },
+  "ignoreUserListLabel": {
+    "label": "Ignore these users:",
+    "group": "User Filters",
+    "type": "hidden"
+  },
+  "ignoreUserList": {
+    "label": "(Comma Separated)",
+    "group": "User Filters",
+    "type": "text",
+    "value": "StreamElements, Streamlabs, Nightbot, Sery_Bot"
+  },
+  "ignorePrefixListLabel": {
+    "label": "Ignore messages that start with:",
+    "group": "User Filters",
+    "type": "hidden"
+  },
+  "ignorePrefixList": {
+    "label": "(Comma Separated)",
+    "group": "User Filters",
+    "type": "text",
+    "value": "!"
+  },
+  "volume": {
+    "label": "Sound Effects Volume (%)",
+    "group": "Sound Effects",
+    "type": "slider",
+    "value": 50,
+    "step": 1,
+    "min": 0,
+    "max": 100
+  },
+  "soundGroupLabel": {
+    "label": "Plays a sound effect per chat message",
+    "group": "Sound Effects",
+    "type": "Hidden"
+  },
+  "soundGroupLabel2": {
+    "label": "...depending on which group it's in.",
+    "group": "Sound Effects",
+    "type": "Hidden"
+  },
+  "soundGroupLabel3": {
+    "label": "Each group can have multiple sounds,",
+    "group": "Sound Effects",
+    "type": "Hidden"
+  },
+  "soundGroupLabel4": {
+    "label": "...playing a sound at random.",
+    "group": "Sound Effects",
+    "type": "Hidden"
+  },
+  "soundGroup1": {
+    "label": "Group 1 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup1": {
+    "label": "Group 1 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup1Label": {
+    "label": "Group 1 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup1": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup1": {
+    "label": "Group 1 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup2": {
+    "label": "Group 2 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup2": {
+    "label": "Group 2 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup2Label": {
+    "label": "Group 2 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup2": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup2": {
+    "label": "Group 2 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup3": {
+    "label": "Group 3 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup3": {
+    "label": "Group 3 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup3Label": {
+    "label": "Group 3 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup3": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup3": {
+    "label": "Group 3 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup4": {
+    "label": "Group 4 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup4": {
+    "label": "Group 4 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup4Label": {
+    "label": "Group 4 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup4": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup4": {
+    "label": "Group 4 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup5": {
+    "label": "Group 5 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup5": {
+    "label": "Group 5 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup5Label": {
+    "label": "Group 5 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup5": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup5": {
+    "label": "Group 5 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup6": {
+    "label": "Group 6 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup6": {
+    "label": "Group 6 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup6Label": {
+    "label": "Group 6 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup6": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup6": {
+    "label": "Group 6 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup7": {
+    "label": "Group 7 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup7": {
+    "label": "Group 7 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup7Label": {
+    "label": "Group 7 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup7": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup7": {
+    "label": "Group 7 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup8": {
+    "label": "Group 8 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup8": {
+    "label": "Group 8 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup8Label": {
+    "label": "Group 8 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup8": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup8": {
+    "label": "Group 8 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup9": {
+    "label": "Group 9 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup9": {
+    "label": "Group 9 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup9Label": {
+    "label": "Group 9 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup9": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup9": {
+    "label": "Group 9 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  },
+  "soundGroup10": {
+    "label": "Group 10 Sound Effects",
+    "group": "Sound Effects",
+    "type": "sound-input",
+    "value": [],
+    "multiple": true
+  },
+  "userLevelSoundGroup10": {
+    "label": "Group 10 User Level",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "everyone",
+    "options": {
+      "everyone": "Everyone",
+      "subs": "Subscribers",
+      "vips": "VIPs",
+      "mods": "Moderators"
+    }
+  },
+  "specificUsersSoundGroup10Label": {
+    "label": "Group 10 Specific Users",
+    "group": "Sound Effects",
+    "type": "hidden"
+  },
+  "specificUsersSoundGroup10": {
+    "label": "(Comma Separated)",
+    "group": "Sound Effects",
+    "type": "text",
+    "value": ""
+  },
+  "messageTypeSoundGroup10": {
+    "label": "Group 10 Message Type",
+    "group": "Sound Effects",
+    "type": "dropdown",
+    "value": "all",
+    "options": {
+      "all": "All",
+      "default": "Normal",
+      "highlight": "Highlighted",
+      "action": "Action (/me)"
+    }
+  }
+}
