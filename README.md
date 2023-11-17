@@ -104,10 +104,10 @@
 		<img alt="Twitch" src="https://img.shields.io/twitch/status/greencomfytea?logo=twitch" />
 	</a>
 	<br>
-	<a href="https://github.com/zaytri">
+	<a href="https://github.com/Zaytri">
 		<img alt="Author" src="https://custom-icon-badges.demolab.com/badge/author-Zaytri-047857?logo=person" />
 	</a>
-	<a href="https://github.com/greencomfytea">
+	<a href="https://github.com/GreenComfyTea">
 		<img alt="Fork Author" src="https://custom-icon-badges.demolab.com/badge/fork%20author-GreenComfyTea-green?logo=person" />
 	</a>
 	<a href="https://github.com/topics/open-source">
