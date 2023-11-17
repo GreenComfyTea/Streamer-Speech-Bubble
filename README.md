@@ -1,16 +1,125 @@
 
-## Streamer Speech Bubble
-
-**This a modified version of [@Zaytri's](https://zaytri.com/) [Chat Bubbles](https://github.com/Zaytri/stream-elements-widgets) widget.** 
-
-It displays **speech bubble(s)** like the original but with modified settings and styling options that are **aimed at displaying just the chat messages from the streamer**.
-
-**Made for all silent streamers who are afraid to speak!**
 
 <p align="center">
-  <a href="https://streamelements.com/dashboard/overlays/share/60d90ef30fcb3e75ea529f37">
+	<h2 align="center">
+		<b>Streamer Speech Bubble</b>
+	</h2>
+	<p align="center">
+		<b>This a modified version of <a href="https://zaytri.com/">@Zaytri's</a> <a href="https://github.com/Zaytri/stream-elements-widgets">Chat Bubbles</a> widget.</b>
+	</p>
+	<p align="center">
+		It displays <b>speech bubble(s)</b> like the original but with modified settings and styling options that are <b>aimed at displaying just the chat messages from the streamer</b>.
+	</p>
+	<p align="center">
+		<b>Made for all silent streamers who are afraid to speak!</b>.
+	</p>
+</p>
+
+<p align="center">
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/graphs/contributors">
+		<img alt="Contributors" src="https://custom-icon-badges.demolab.com/github/contributors/greencomfytea/Streamer-Speech-Bubble?logo=person-add" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/issues">
+		<img alt="Issues" src="https://custom-icon-badges.demolab.com/github/issues/greencomfytea/Streamer-Speech-Bubble?logo=issue-opened" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/issues">
+		<img alt="Issues Closed" src="https://custom-icon-badges.demolab.com/github/issues-closed/greencomfytea/Streamer-Speech-Bubble?logo=issue-closed" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/pulls">
+		<img alt="Pull Requests" src="https://custom-icon-badges.demolab.com/github/issues-pr/greencomfytea/Streamer-Speech-Bubble?logo=git-pull-request" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/pulls">
+		<img alt="Pull Requests Closed" src="https://custom-icon-badges.demolab.com/github/issues-pr-closed/greencomfytea/Streamer-Speech-Bubble?logo=git-pull-request-closed" />
+	</a>
+	<br>
+	<a href="">
+		<img alt="License" src="https://custom-icon-badges.demolab.com/github/license/greencomfytea/Streamer-Speech-Bubble?logo=law" />
+	</a>
+	<a href="https://streamelements.com">
+		<img alt="Platform" src="https://custom-icon-badges.demolab.com/badge/platform-StreamElements-blue?logo=device-desktop" />
+	</a>
+	<a href="">
+		<img alt="Maintenance" src="https://custom-icon-badges.demolab.com/maintenance/yes/2023?logo=tools" />
+	</a>
+	<br>
+	<br>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/commits/main">
+		<img alt="Commits" src="https://custom-icon-badges.demolab.com/github/commit-activity/t/greencomfytea/Streamer-Speech-Bubble?logo=git-commit" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/commits/main">
+		<img alt="Last Commit" src="https://custom-icon-badges.demolab.com/github/last-commit/greencomfytea/Streamer-Speech-Bubble?logo=git-commit" />
+	</a>
+	<br>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/graphs/commit-activity">
+		<img alt="Commit Activity (Year)" src="https://custom-icon-badges.demolab.com/github/commit-activity/y/greencomfytea/Streamer-Speech-Bubble?logo=pulse" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/graphs/commit-activity">
+		<img alt="Commit Activity (Month)" src="https://custom-icon-badges.demolab.com/github/commit-activity/m/greencomfytea/Streamer-Speech-Bubble?logo=pulse" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/graphs/commit-activity">
+		<img alt="Commit Activity (Week)" src="https://custom-icon-badges.demolab.com/github/commit-activity/w/greencomfytea/Streamer-Speech-Bubble?logo=pulse" />
+	</a>
+	<br>
+	<br>
+	<a href="">
+		<img alt="Repo Size" src="https://custom-icon-badges.demolab.com/github/repo-size/greencomfytea/Streamer-Speech-Bubble?logo=database" />
+	</a>
+	<a href="">
+		<img alt="Line Count" src="https://sloc.xyz/github/greencomfytea/Streamer-Speech-Bubble" />
+	</a>
+	<a href="">
+		<img alt="COCOMO" src="https://sloc.xyz/github/greencomfytea/Streamer-Speech-Bubble/?category=cocomo" />
+	</a>
+	<a href="">
+		<img alt="Goto Counter" src="https://custom-icon-badges.demolab.com/github/search/greencomfytea/Streamer-Speech-Bubble/goto?logo=git-compare" />
+	</a>
+	<br>
+	<a href="https://github.com/sponsors/greencomfytea">
+		<img alt="Sponsors" src="https://custom-icon-badges.demolab.com/github/sponsors/greencomfytea?logo=heart" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/watchers">
+		<img alt="Watchers" src="https://custom-icon-badges.demolab.com/github/watchers/greencomfytea/Streamer-Speech-Bubble?logo=eye" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/forks">
+		<img alt="Forks" src="https://custom-icon-badges.demolab.com/github/forks/greencomfytea/Streamer-Speech-Bubble?logo=repo-forked" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/stargazers">
+		<img alt="Stars" src="https://custom-icon-badges.demolab.com/github/stars/greencomfytea/Streamer-Speech-Bubble?logo=star" />
+	</a>
+	<a href="https://github.com/GreenComfyTea/Streamer-Speech-Bubble/graphs/traffic">
+		<img alt="Hits" src="https://custom-icon-badges.demolab.com/endpoint?url=https://hits.dwyl.com/greencomfytea/Streamer-Speech-Bubble.json?color=blue&logo=eye" />
+	</a>
+	<br>
+	<br>
+	<a href="https://streamelements.com">
+		<img alt="Website" src="https://custom-icon-badges.demolab.com/website?down_color=red&down_message=down&up_color=brightgreen&up_message=up&logo=link&url=https://www.nexusmods.com/monsterhunterrise/mods/50" />
+	</a>
+	<a href="https://github.com/greencomfytea?tab=followers">
+		<img alt="Followers" src="https://custom-icon-badges.demolab.com/github/followers/greencomfytea?logo=people" />
+	</a>
+	<a href="https://twitter.com/greencomfytea">
+		<img alt="Twitter" src="https://img.shields.io/twitter/follow/greencomfytea?logo=twitter" />
+	</a>
+	<a href="https://www.twitch.tv/greencomfytea">
+		<img alt="Twitch" src="https://img.shields.io/twitch/status/greencomfytea?logo=twitch" />
+	</a>
+	<br>
+	<a href="https://github.com/zaytri">
+		<img alt="Author" src="https://custom-icon-badges.demolab.com/badge/author-Zaytri-047857?logo=person" />
+	</a>
+	<a href="https://github.com/greencomfytea">
+		<img alt="Fork Author" src="https://custom-icon-badges.demolab.com/badge/fork%20author-GreenComfyTea-green?logo=person" />
+	</a>
+	<a href="https://github.com/topics/open-source">
+		<img alt="Open Source" src="https://img.shields.io/badge/open%20source-%3F-yellow?logo=openvpn" />
+	</a>
+	<a href="https://www.javascript.com">
+		<img alt="Written in" src="https://custom-icon-badges.demolab.com/badge/written in-html | css | js-f1e05a?logo=terminal" />
+	</a>
+</p>
+
+<p align="center">
     <img src="/assets/preview.png" />
-  </a>
 </p>
 
 ## Modified Features
